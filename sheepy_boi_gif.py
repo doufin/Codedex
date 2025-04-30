@@ -6,4 +6,4 @@ images = []
 for filename in filenames:
     images.append(shep.imread(filename))
 
-shep.imwrite('sheep_gif2.gif', images, duration = 100, loop = 0)
+shep.imwrite('sheepy_boi.gif', images, duration = 100, loop = 0)
